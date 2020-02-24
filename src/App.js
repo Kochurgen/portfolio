@@ -1,26 +1,52 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SideBar from "./modules/SideBar";
+import Portfolio from "./modules/Portfolio/Portfolio";
+import Contacts from "./modules/Contacts/Contacts";
+import Skills from "./modules/Skills"
+import {selectPage} from "./services/Store/actions";
+import {connect} from "react-redux";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.PureComponent {
+    render() {
+        return (
+            <div className="App">
+                <SideBar/>
+                {(() => {
+                    switch (this.props.getSelectPage) {
+                        case 0:
+                            return <Portfolio/>;
+                        case 1:
+                            return <Skills/>;
+                        case 2:
+                            return <Contacts/>;
+                        case 3:
+                            return <Contacts/>;
+                        default:
+                            return <Contacts/>;
+                    }
+                })()}
+            </div>
+        );
+    }
 }
 
-export default App;
+const mapStateToProps = state => {
+    console.log('mapStateToProps', state);
+    return ({
+        getSelectPage: state.Navigation.pageId
+    })
+};
+
+const mapDispatchToProps = dispatch => {
+    console.log(dispatch);
+    return ({
+        selectPage: pageId => dispatch(selectPage(pageId))
+    })
+};
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(App);

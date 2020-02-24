@@ -1,5 +1,10 @@
-.App {
-  text-align: center;
+
+.vertical-timeline::before {
+  background: rgb(232, 236, 243) !important;
+}
+
+.vertical-timeline-element-date{
+  padding: 0 !important;
 }
 
 .App-logo {
