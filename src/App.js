@@ -6,6 +6,7 @@ import Contacts from "./modules/Contacts/Contacts";
 import Skills from "./modules/Skills"
 import {selectPage} from "./services/Store/actions";
 import {connect} from "react-redux";
+import {Home} from "./views"
 
 
 class App extends React.PureComponent {
@@ -16,12 +17,14 @@ class App extends React.PureComponent {
                 {(() => {
                     switch (this.props.getSelectPage) {
                         case 0:
-                            return <Portfolio/>;
+                            return <Home/>;
                         case 1:
-                            return <Skills/>;
+                            return <Portfolio/>;
                         case 2:
-                            return <Contacts/>;
+                            return <Skills/>;
                         case 3:
+                            return <Contacts/>;
+                        case 4:
                             return <Contacts/>;
                         default:
                             return <Contacts/>;

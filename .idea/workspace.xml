@@ -2,116 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f766bb-3b21-4306-a580-e38698f0deb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/android-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/angularjs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/apple-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/backbonejs-original-wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/backbonejs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/css3-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/electron-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/express-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/git-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/html5-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/huas1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/javascript-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/jquery-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/linux-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/mongodb-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/nodejs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/npm-original-wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/python-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/react-original (1).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/react-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/redux-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/sass-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/typescript-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/vuejs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/webpack-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/windows8-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/source/images/yarn-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blocks/Block.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blocks/BlockContentWrapper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blocks/BlockSideBarWrapper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blocks/BlockTechnology.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blocks/BlockWrapper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blocks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/ButtonImage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/ButtonNavigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Images/Image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Images/ImageCircle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Images/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/List/List.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/List/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Texts/Text.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Texts/TextButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Texts/TextContent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Texts/TextLink.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Texts/TextTechnology.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Texts/TextTitle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Texts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/configStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/CV/CV.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/CV/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Contacts/Contacts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Contacts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Portfolio/Portfolio.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Portfolio/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/SideBar/NavigationButtonItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/SideBar/SideBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/SideBar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Skills/Skills.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Skills/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/TechnologyBoard/TechnologyBoard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/TechnologyBoard/TechnologyBoardItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/TechnologyBoard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Timeline/Timeline.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Timeline/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Timeline/source/TimelineItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Store/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Store/reducers/Language.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Store/reducers/Navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Store/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/android-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/angularjs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/apple-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/backbonejs-original-wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/backbonejs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/css3-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/electron-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/express-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/git-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/html5-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/huas1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/javascript-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/jquery-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/linux-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/mongodb-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/nodejs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/npm-original-wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/python-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/react-original (1).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/react-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/redux-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/sass-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/typescript-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/vuejs-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/webpack-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/windows8-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/yarn-original.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Blocks/BlockInformationWrapper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Blocks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blocks/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Images/Image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Images/Image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/SideBar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/SideBar/SideBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Skills/Skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/source/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Blocks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -154,6 +56,7 @@
       <recent name="$PROJECT_DIR$/src/source/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Blocks" />
       <recent name="$PROJECT_DIR$/public/source/images" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -183,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581227106179</updated>
-      <workItem from="1581227108280" duration="212104000" />
+      <workItem from="1581227108280" duration="231506000" />
     </task>
     <servers />
   </component>

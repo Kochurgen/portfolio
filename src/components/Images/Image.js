@@ -5,7 +5,7 @@ export default styled.div`
     height:${(props)=>props.height? props.height: '100%'};
     display: block;
     background-image: url(${(props)=>props.image});
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 `

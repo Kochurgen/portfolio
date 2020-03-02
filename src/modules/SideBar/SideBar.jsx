@@ -41,7 +41,6 @@ export default React.memo(() => {
                         <TextTitle color={'white'} size={'29px'}>
                             frontend Developer
                         </TextTitle>
-                        <TechnologyBoard/>
                     </Button>
                     <NavigationsButtonBlock/>
                 </BlockWrapper>

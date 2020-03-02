@@ -10,10 +10,11 @@ export default React.memo(()=>{
     return(
         <Block>
             <ul style={{'listStyle':'none'}}>
-                <NavigationButtonItem id={0} text={'Portfolio'}/>
-                <NavigationButtonItem id={1} text={'My skills'}/>
-                <NavigationButtonItem id={2} text={'Contact Me'}/>
-                <NavigationButtonItem id={3} text={'MY CV'}/>
+                <NavigationButtonItem id={0} text={'Home'}/>
+                <NavigationButtonItem id={1} text={'Portfolio'}/>
+                <NavigationButtonItem id={2} text={'My skills'}/>
+                <NavigationButtonItem id={3} text={'Contact Me'}/>
+                <NavigationButtonItem id={4} text={'MY CV'}/>
             </ul>
         </Block>
     )

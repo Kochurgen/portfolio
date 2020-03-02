@@ -13,8 +13,6 @@ export default React.memo(()=>{
             <p><strong>Markup</strong>Bootstrap, CSS3, HTML5, Markdown, LESS, Sass, Styled Components</p>
             <p><strong>OS:</strong> GNU / Linux, OS X, Windows.</p>
             <p><strong>Version Control:</strong> Git, GitHub, GitLab.</p>
-
-
         </BlockContentWrapper>
     )
 })
