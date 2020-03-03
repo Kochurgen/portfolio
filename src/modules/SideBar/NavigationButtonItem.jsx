@@ -59,7 +59,7 @@ export default connect(
             selectPage(id)
         }}>
             <Button>
-                <TextContent color={'white'} size={'34px'}>
+                <TextContent color={'white'} size={'2em'}>
                     {text}
                 </TextContent>
             </Button>

@@ -9,7 +9,7 @@ import NavigationButtonItem from "./NavigationButtonItem";
 export default React.memo(()=>{
     return(
         <Block color={"rgba(145,13,13,.8)"}>
-            <ul style={{'listStyle':'none', margin: 0, paddingTop: '60px'}}>
+            <ul style={{'listStyle':'none', margin: 0, paddingTop: '60px', paddingLeft: 0}}>
                 <NavigationButtonItem id={0} text={'Home'}/>
                 <NavigationButtonItem id={1} text={'Portfolio'}/>
                 <NavigationButtonItem id={2} text={'My skills'}/>
