@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f766bb-3b21-4306-a580-e38698f0deb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Blocks/BlockInformationWrapper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TitleBar/TitleBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TitleBar/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Blocks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blocks/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Images/Image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Images/Image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Blocks/BlockContentWrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blocks/BlockContentWrapper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Blocks/BlockInformationWrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blocks/BlockInformationWrapper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Blocks/BlockSideBarWrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blocks/BlockSideBarWrapper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Buttons/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Buttons/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Texts/TextLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Texts/TextLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/SideBar/NavigationButtonItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/SideBar/NavigationButtonItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/SideBar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/SideBar/SideBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Skills/Skills.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581227106179</updated>
-      <workItem from="1581227108280" duration="231506000" />
+      <workItem from="1581227108280" duration="250769000" />
     </task>
     <servers />
   </component>
@@ -104,9 +108,10 @@
     </state>
     <state x="190" y="123" width="745" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog/27.23.1653.1027@27.23.1653.1027" timestamp="1582297959089" />
     <state x="193" y="123" width="743" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog/30.23.1650.1027@30.23.1650.1027" timestamp="1581583611593" />
-    <state x="159" y="244" width="684" height="486" key="find.popup" timestamp="1582390209631">
-      <screen x="28" y="23" width="1652" height="1027" />
+    <state x="157" y="244" width="685" height="486" key="find.popup" timestamp="1583239887267">
+      <screen x="26" y="23" width="1654" height="1027" />
     </state>
+    <state x="157" y="244" width="685" height="486" key="find.popup/26.23.1654.1027@26.23.1654.1027" timestamp="1583239887267" />
     <state x="159" y="244" width="684" height="486" key="find.popup/28.23.1652.1027@28.23.1652.1027" timestamp="1582390209631" />
     <state x="161" y="244" width="683" height="486" key="find.popup/30.23.1650.1027@30.23.1650.1027" timestamp="1581523626972" />
   </component>

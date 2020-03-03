@@ -4,6 +4,8 @@ import {connect} from "react-redux";
 import SideBar from "../modules/SideBar";
 import Portfolio from "../modules/Portfolio";
 import Contacts from "../modules/Contacts";
+import Sidebar from "react-sidebar";
+
 
 const mapStateToProps = state => {
     console.log('mapStateToProps', state);
@@ -26,7 +28,6 @@ export default connect(
 )(React.memo(({getSelectPage}) => {
     return (
         <>
-            <SideBar/>
             <Contacts/>
         </>
     );

@@ -2,13 +2,11 @@ import Block from "./Block"
 import styled from "styled-components"
 
 export default styled(Block)`
+   width: 100%;
     display: block;
     position: absolute;
-    width: 73%;
     right: 0;
-    
-    @media (max-width: 1500px){
-        left: 0;
-        width: 100%;
-    }
-`
+    bottom: 0;
+    top: 60px;
+    left: 0;
+`;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export default styled.button`
+export default styled.a`
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0);
     border: 0;

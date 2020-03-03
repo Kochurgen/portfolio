@@ -12,15 +12,4 @@ export default styled(Block)`
     color: #fff;
     text-align: left;
     background-color: rgba(145,13,13,.8);
-    
-    @media(max-width: 1500px) {
-        top: auto;
-        bottom: auto;
-        left: auto;
-        right: auto;
-        position: relative;
-        width: auto;
-        padding-top: 40px;
-        padding-bottom: 0;
-    }
 `;

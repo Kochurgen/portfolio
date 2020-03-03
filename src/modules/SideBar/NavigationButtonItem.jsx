@@ -37,15 +37,17 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     console.log(dispatch);
-    return({
-    selectPage: pageId => dispatch(selectPage(pageId))
-})};
+    return ({
+        selectPage: pageId => dispatch(selectPage(pageId))
+    })
+};
 
 
 export default connect(
     mapStateToProps,
     mapDispatchToProps
 )(React.memo(({
+                  url,
                   selectPage,
                   getSelectPage,
                   id,
@@ -56,7 +58,7 @@ export default connect(
         <NavigationItem onClick={(event) => {
             selectPage(id)
         }}>
-            <Button>
+            <Button href={url}>
                 <TextContent color={'white'} size={'34px'}>
                     {text}
                 </TextContent>
