@@ -17,23 +17,22 @@ class App extends React.PureComponent {
         return (
             <div className="App">
                 <SideBar/>
-                <Switch>
-                    <Route exact path={"/"}>
-                        <Home/>
-                    </Route>
-                    <Route path={"/portfolio"}>
-                        <Portfolio/>
-                    </Route>
-                    <Route path={"/skills"}>
-                        <Skills/>
-                    </Route>
-                    <Route path={"/contacts"}>
-                        <Contacts/>
-                    </Route>
-                    <Route path={"/contacts"}>
-                        <Contacts/>
-                    </Route>
-                </Switch>
+                {(() => {
+                    switch (this.props.getSelectPage) {
+                        case 0:
+                            return <Home/>;
+                        case 1:
+                            return <Portfolio/>;
+                        case 2:
+                            return <Skills/>;
+                        case 3:
+                            return <Contacts/>;
+                        case 4:
+                            return <Contacts/>;
+                        default:
+                            return <Contacts/>;
+                    }
+                })()}
             </div>
         );
     }

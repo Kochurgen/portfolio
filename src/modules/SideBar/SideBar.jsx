@@ -1,5 +1,5 @@
 import React from "react";
-import {BlockSideBarWrapper, BlockWrapper} from "../../components/Blocks"
+import {BlockSideBarWrapper} from "../../components/Blocks"
 import NavigationsButtonBlock from "./NavigationsButtonBlock";
 import styled from "styled-components";
 import Sidebar from "react-sidebar";
@@ -47,7 +47,7 @@ export default class SideBar extends React.PureComponent {
                     }
                 }
             >
-                <TitleBar>
+                <TitleBar left={this.state.sidebarOpen? "400px" : 0}>
                     <button onClick={() => this.onSetSidebarOpen(true)}>
                         Open sidebar
                     </button>
@@ -55,28 +55,5 @@ export default class SideBar extends React.PureComponent {
             </Sidebar>
         )
     }
-
-    // <BlockWrapperSideBar>
-    //     <BlockSideBarWrapper>
-    //         <BlockWrapper width={'initial'}>
-    //             <Button>
-    //                 <ImageCircle
-    //                     width={'200px'}
-    //                     height={'200px'}
-    //                     image={logo}
-    //                     style={{margin: `0 auto`}}/>
-    //                 <TextTitle color={'white'} size={'29px'}>
-    //                     Volodymyr Kochubenko
-    //                 </TextTitle>
-    //                 <Flag code="ua" height="22px"/><TextContent color={"white"}
-    //                                                             size={"22px"}> Ukraine </TextContent>
-    //                 <TextTitle color={'white'} size={'29px'}>
-    //                     frontend Developer
-    //                 </TextTitle>
-    //             </Button>
-    //             <NavigationsButtonBlock/>
-    //         </BlockWrapper>
-    //     </BlockSideBarWrapper>
-    // </BlockWrapperSideBar>
 }
 

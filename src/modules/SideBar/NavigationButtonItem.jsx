@@ -58,7 +58,7 @@ export default connect(
         <NavigationItem onClick={(event) => {
             selectPage(id)
         }}>
-            <Button href={url}>
+            <Button>
                 <TextContent color={'white'} size={'34px'}>
                     {text}
                 </TextContent>
