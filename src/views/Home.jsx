@@ -15,8 +15,8 @@ export default class Home extends React.PureComponent {
             <BlockContentWrapper>
                 <BlockInformationWrapper>
                     <ImageCircle
-                        width={'24rem'}
-                        height={'24rem'}
+                        width={'20rem'}
+                        height={'20rem'}
                         image={logo}
                         style={{margin: `0 auto`}}/>
                     <TextTitle color={'white'} size={'29px'}>

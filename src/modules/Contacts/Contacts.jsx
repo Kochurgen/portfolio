@@ -20,8 +20,8 @@ export default React.memo(() => {
             <BlockInformationWrapper>
                 <BlockWrapper width={"50%"} height={"50%"} style={{margin: "0 auto"}}>
                     <ImageCircle
-                        width={'400px'}
-                        height={'400px'}
+                        width={'20rem'}
+                        height={'20rem'}
                         image={logo}
                         style={{margin: `0 auto`}}/>
                     <TextTitle size={'29px'}>
