@@ -29,18 +29,18 @@ export default React.memo(() => {
                     </TextTitle>
                     <List>
                         <li><ItemList href={"tel:+380985697167"}>
-                            <TextLink size={"1em"}><FaPhone style={{float: "left", padding: "9px"}}/> TEL:
+                            <TextLink size={"1rem"}><FaPhone style={{float: "left", padding: "0"}}/> TEL:
                                 +380985697167</TextLink>
                         </ItemList></li>
                         <li><ItemList href={"mailto:volodymyr.kochubenko@gmail.com?subject=Job+proposal"}>
-                            <TextLink size={"1em"}><IoIosMail style={{float: "left", padding: "9px"}}/> EMAIL:
+                            <TextLink size={"1rem"}><IoIosMail style={{float: "left", padding: "0"}}/> EMAIL:
                                 volodymyr.kochubenko@gmail.com</TextLink>
                         </ItemList></li>
                         <li><ItemList href={"skype:live:volodymyr.kochubenko"}>
-                            <TextLink size={"1em"}><FaSkype style={{float: "left", padding: "9px"}}/> SKYPE:
+                            <TextLink size={"1rem"}><FaSkype style={{float: "left", padding: "0"}}/> SKYPE:
                                 R36OMOD</TextLink></ItemList></li>
                         <li><ItemList href={"https://telegram.im/R36OMOD"}>
-                            <TextLink size={"1em"}><FaTelegram style={{float: "left", padding: "9px"}}/> TELEGRAM:
+                            <TextLink size={"1rem"}><FaTelegram style={{float: "left", padding: "0"}}/> TELEGRAM:
                                 R36OMOD</TextLink></ItemList>
                         </li>
                     </List>
