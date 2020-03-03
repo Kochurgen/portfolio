@@ -2,7 +2,8 @@ import Block from "./Block"
 import styled from "styled-components"
 
 export default styled(Block)`
-   width: 100%;
+    min-width: 500px;
+    margin: 0 auto;
     display: block;
     position: absolute;
     right: 0;
