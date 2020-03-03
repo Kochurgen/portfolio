@@ -39,7 +39,7 @@ export default class SideBar extends React.PureComponent {
                     {
                         sidebar:
                             {
-                                width: "400px",
+                                width: "256px",
                                 background: "rgba(145,13,13,.8)",
                                 zIndex: "999999999",
                                 position: "fixed"
@@ -47,7 +47,7 @@ export default class SideBar extends React.PureComponent {
                     }
                 }
             >
-                <TitleBar left={this.state.sidebarOpen? "400px" : 0}>
+                <TitleBar left={this.state.sidebarOpen? "256px" : 0}>
                     <button
                         style={{height: '60px'}}
                         onClick={() => this.onSetSidebarOpen(true)}>
