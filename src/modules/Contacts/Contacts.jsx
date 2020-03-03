@@ -18,7 +18,7 @@ export default React.memo(() => {
     return (
         <BlockContentWrapper>
             <BlockInformationWrapper>
-                <BlockWrapper width={"50%"} height={"50%"} style={{margin: "0 auto"}}>
+                {/*<BlockWrapper width={"50%"} height={"50%"} style={{margin: "0 auto"}}>*/}
                     <ImageCircle
                         width={'20rem'}
                         height={'20rem'}
@@ -44,7 +44,7 @@ export default React.memo(() => {
                                 R36OMOD</TextLink></ItemList>
                         </li>
                     </List>
-                </BlockWrapper>
+                {/*</BlockWrapper>*/}
             </BlockInformationWrapper>
 
         </BlockContentWrapper>
