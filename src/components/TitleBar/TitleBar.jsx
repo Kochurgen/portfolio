@@ -7,4 +7,8 @@ export default styled.div`
     height: 60px;
     background-color: rgba(145,13,13,.8);
     z-index: 9999999;
+    transition-property: -webkit-transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.3s;
 `;

@@ -48,7 +48,9 @@ export default class SideBar extends React.PureComponent {
                 }
             >
                 <TitleBar left={this.state.sidebarOpen? "400px" : 0}>
-                    <button onClick={() => this.onSetSidebarOpen(true)}>
+                    <button
+                        style={{height: '60px'}}
+                        onClick={() => this.onSetSidebarOpen(true)}>
                         Open sidebar
                     </button>
                 </TitleBar>
