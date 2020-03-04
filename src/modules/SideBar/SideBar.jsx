@@ -4,6 +4,7 @@ import NavigationsButtonBlock from "./NavigationsButtonBlock";
 import styled from "styled-components";
 import Sidebar from "react-sidebar";
 import TitleBar from "../../components/TitleBar";
+import {FiMenu} from "react-icons/fi"
 
 const BlockWrapperSideBar = styled(BlockSideBarWrapper)`
     width:100%;
@@ -49,9 +50,9 @@ export default class SideBar extends React.PureComponent {
             >
                 <TitleBar left={this.state.sidebarOpen? "256px" : 0}>
                     <button
-                        style={{height: '60px'}}
+                        style={{height: '60px', color: "white"}}
                         onClick={() => this.onSetSidebarOpen(true)}>
-                        Open sidebar
+                        <FiMenu size={"50px"}/>
                     </button>
                 </TitleBar>
             </Sidebar>

@@ -14,6 +14,10 @@ const ItemList = styled.a`
     color: cadetblue;
 `;
 
+const Item = styled.li`
+    padding: 0 10px;
+`;
+
 export default React.memo(() => {
     return (
         <BlockContentWrapper>
@@ -28,21 +32,21 @@ export default React.memo(() => {
                         Volodymyr Kochubenko
                     </TextTitle>
                     <List>
-                        <li><ItemList href={"tel:+380985697167"}>
-                            <TextLink size={"1rem"}><FaPhone style={{float: "left", padding: "0"}}/> TEL:
+                        <Item><ItemList href={"tel:+380985697167"}>
+                            <TextLink size={"1rem"}><FaPhone style={{float: "left", padding: "0 10px"}}/> TEL:
                                 +380985697167</TextLink>
-                        </ItemList></li>
-                        <li><ItemList href={"mailto:volodymyr.kochubenko@gmail.com?subject=Job+proposal"}>
-                            <TextLink size={"1rem"}><IoIosMail style={{float: "left", padding: "0"}}/> EMAIL:
+                        </ItemList></Item>
+                        <Item><ItemList href={"mailto:volodymyr.kochubenko@gmail.com?subject=Job+proposal"}>
+                            <TextLink size={"1rem"}><IoIosMail style={{float: "left", padding: "0 10px"}}/> EMAIL:
                                 volodymyr.kochubenko@gmail.com</TextLink>
-                        </ItemList></li>
-                        <li><ItemList href={"skype:live:volodymyr.kochubenko"}>
-                            <TextLink size={"1rem"}><FaSkype style={{float: "left", padding: "0"}}/> SKYPE:
-                                R36OMOD</TextLink></ItemList></li>
-                        <li><ItemList href={"https://telegram.im/R36OMOD"}>
-                            <TextLink size={"1rem"}><FaTelegram style={{float: "left", padding: "0"}}/> TELEGRAM:
+                        </ItemList></Item>
+                        <Item><ItemList href={"skype:live:volodymyr.kochubenko"}>
+                            <TextLink size={"1rem"}><FaSkype style={{float: "left", padding: "0 10px"}}/> SKYPE:
+                                R36OMOD</TextLink></ItemList></Item>
+                        <Item><ItemList href={"https://telegram.im/R36OMOD"}>
+                            <TextLink size={"1rem"}><FaTelegram style={{float: "left", padding: "0 10px"}}/> TELEGRAM:
                                 R36OMOD</TextLink></ItemList>
-                        </li>
+                        </Item>
                     </List>
                 {/*</BlockWrapper>*/}
             </BlockInformationWrapper>
