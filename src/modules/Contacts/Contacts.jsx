@@ -18,11 +18,20 @@ const Item = styled.li`
     padding: 0 10px;
 `;
 
-export default React.memo(() => {
-    return (
-        <BlockContentWrapper>
-            <BlockInformationWrapper>
-                {/*<BlockWrapper width={"50%"} height={"50%"} style={{margin: "0 auto"}}>*/}
+export default class Contacts extends React.PureComponent{
+    constructor(props) {
+        super(props);
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
+    render() {
+        return (
+            <BlockContentWrapper>
+                <BlockInformationWrapper>
+                    {/*<BlockWrapper width={"50%"} height={"50%"} style={{margin: "0 auto"}}>*/}
                     <ImageCircle
                         width={'20rem'}
                         height={'20rem'}
@@ -48,9 +57,10 @@ export default React.memo(() => {
                                 R36OMOD</TextLink></ItemList>
                         </Item>
                     </List>
-                {/*</BlockWrapper>*/}
-            </BlockInformationWrapper>
+                    {/*</BlockWrapper>*/}
+                </BlockInformationWrapper>
 
-        </BlockContentWrapper>
-    )
-});
+            </BlockContentWrapper>
+        )
+    }
+};

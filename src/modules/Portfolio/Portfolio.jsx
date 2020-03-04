@@ -7,12 +7,16 @@ import {TextContent, TextTitle} from "../../components/Texts";
 export default class Portfolio extends React.PureComponent {
     constructor(props) {
         super(props);
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     }
 
     render() {
         return (
             <BlockContentWrapper>
-                <VerticalTimeline>
+                <VerticalTimeline >
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{background: 'rgb(232,236,243)', color: '#000000'}}

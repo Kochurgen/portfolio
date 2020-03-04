@@ -10,6 +10,14 @@ import styled from "styled-components";
 
 
 export default class Home extends React.PureComponent {
+    constructor(props) {
+        super(props);
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
     render() {
         return (
             <BlockContentWrapper>

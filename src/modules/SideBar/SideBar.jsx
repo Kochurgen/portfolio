@@ -4,8 +4,9 @@ import NavigationsButtonBlock from "./NavigationsButtonBlock";
 import styled from "styled-components";
 import Sidebar from "react-sidebar";
 import TitleBar from "../../components/TitleBar";
-import {FiMenu} from "react-icons/fi"
-import {Button} from "../../components/Buttons"
+import {FiMenu} from "react-icons/fi";
+import {Button} from "../../components/Buttons";
+
 
 const BlockWrapperSideBar = styled(BlockSideBarWrapper)`
     width:100%;
