@@ -3,11 +3,11 @@ import {TextTechnology} from "../../components/Texts/"
 
 export default React.memo(({image, name}) => {
         return (
-            <span style={{display: "inline-flex", margin: "0 10px", width: '180px'}}>
+            <span style={{display: "inline-flex", margin: "0 10px", width: '110px'}}>
                 <img style={
                     {
-                        width: '36px',
-                        height: '36px'
+                        width: '25px',
+                        height: '35px'
                     }
                 } src={image}/>
                 <TextTechnology color={"white"}> {name} </TextTechnology>
