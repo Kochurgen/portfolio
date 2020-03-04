@@ -50,7 +50,7 @@ export default class SideBar extends React.PureComponent {
             >
                 <TitleBar left={this.state.sidebarOpen? "256px" : 0}>
                     <button
-                        style={{height: '60px', color: "white"}}
+                        style={{height: '60px', color: "white", backgroundColor: "rgba(0,0,0,0)"}}
                         onClick={() => this.onSetSidebarOpen(true)}>
                         <FiMenu size={"50px"}/>
                     </button>
