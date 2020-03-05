@@ -4,15 +4,6 @@
     <list default="true" id="01f766bb-3b21-4306-a580-e38698f0deb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TitleBar/TitleBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitleBar/TitleBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/CV/CV.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CV/CV.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/CV/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CV/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Contacts/Contacts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Contacts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Contacts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Portfolio/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Portfolio/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Portfolio/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Main.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581227106179</updated>
-      <workItem from="1581227108280" duration="287841000" />
+      <workItem from="1581227108280" duration="288825000" />
     </task>
     <servers />
   </component>
