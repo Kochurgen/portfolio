@@ -32,23 +32,23 @@ class App extends React.PureComponent {
                             return <Contacts/>;
                     }
                 })()}
-                <Switch>
-                    <Route exact path={"/"}>
-                        <Home/>
-                    </Route>
-                    <Route path={"/portfolio"}>
-                        <Portfolio/>
-                    </Route>
-                    <Route path={"/skills"}>
-                        <Skills/>
-                    </Route>
-                    <Route path={"/contacts"}>
-                        <Contacts/>
-                    </Route>
-                    <Route path={"/contacts"}>
-                        <Contacts/>
-                    </Route>
-                </Switch>
+                {/*<Switch>*/}
+                {/*    <Route exact path={"/"}>*/}
+                {/*        <Home/>*/}
+                {/*    </Route>*/}
+                {/*    <Route path={"/portfolio"}>*/}
+                {/*        <Portfolio/>*/}
+                {/*    </Route>*/}
+                {/*    <Route path={"/skills"}>*/}
+                {/*        <Skills/>*/}
+                {/*    </Route>*/}
+                {/*    <Route path={"/contacts"}>*/}
+                {/*        <Contacts/>*/}
+                {/*    </Route>*/}
+                {/*    <Route path={"/contacts"}>*/}
+                {/*        <Contacts/>*/}
+                {/*    </Route>*/}
+                {/*</Switch>*/}
             </div>
         );
     }
