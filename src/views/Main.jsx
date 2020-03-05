@@ -2,8 +2,8 @@ import React from "react";
 import {selectPage} from "../services/Store/actions";
 import {connect} from "react-redux";
 import SideBar from "../modules/SideBar";
-import Portfolio from "../modules/Portfolio";
-import Contacts from "../modules/Contacts";
+import Portfolio from "./Portfolio";
+import Contacts from "./Contacts";
 import Sidebar from "react-sidebar";
 
 

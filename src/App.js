@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
 import SideBar from "./modules/SideBar";
-import Portfolio from "./modules/Portfolio/Portfolio";
-import Contacts from "./modules/Contacts/Contacts";
+import Portfolio from "./views/Portfolio/Portfolio";
+import Contacts from "./views/Contacts/Contacts";
 import Skills from "./modules/Skills"
 import {selectPage} from "./services/Store/actions";
 import {connect} from "react-redux";
 import {Home} from "./views"
 import {Switch, Route} from "react-router-dom"
-import Sidebar from "react-sidebar";
 
 
 
@@ -17,39 +16,39 @@ class App extends React.PureComponent {
         return (
             <div className="App">
                 <SideBar/>
-                {(() => {
-                    switch (this.props.getSelectPage) {
-                        case 0:
-                            return <Home/>;
-                        case 1:
-                            return <Portfolio/>;
-                        case 2:
-                            return <Skills/>;
-                        case 3:
-                            return <Contacts/>;
-                        case 4:
-                            return <Contacts/>;
-                        default:
-                            return <Contacts/>;
-                    }
-                })()}
-                {/*<Switch>*/}
-                {/*    <Route exact path={"/"}>*/}
-                {/*        <Home/>*/}
-                {/*    </Route>*/}
-                {/*    <Route path={"/portfolio"}>*/}
-                {/*        <Portfolio/>*/}
-                {/*    </Route>*/}
-                {/*    <Route path={"/skills"}>*/}
-                {/*        <Skills/>*/}
-                {/*    </Route>*/}
-                {/*    <Route path={"/contacts"}>*/}
-                {/*        <Contacts/>*/}
-                {/*    </Route>*/}
-                {/*    <Route path={"/contacts"}>*/}
-                {/*        <Contacts/>*/}
-                {/*    </Route>*/}
-                {/*</Switch>*/}
+                {/*{(() => {*/}
+                {/*    switch (this.props.getSelectPage) {*/}
+                {/*        case 0:*/}
+                {/*            return <Home/>;*/}
+                {/*        case 1:*/}
+                {/*            return <Portfolio/>;*/}
+                {/*        case 2:*/}
+                {/*            return <Skills/>;*/}
+                {/*        case 3:*/}
+                {/*            return <Contacts/>;*/}
+                {/*        case 4:*/}
+                {/*            return <Contacts/>;*/}
+                {/*        default:*/}
+                {/*            return <Contacts/>;*/}
+                {/*    }*/}
+                {/*})()}*/}
+                <Switch>
+                    <Route exact path={"/"}>
+                        <Home/>
+                    </Route>
+                    <Route path={"/portfolio"}>
+                        <Portfolio/>
+                    </Route>
+                    <Route path={"/skills"}>
+                        <Skills/>
+                    </Route>
+                    <Route path={"/contacts"}>
+                        <Contacts/>
+                    </Route>
+                    <Route path={"/contacts"}>
+                        <Contacts/>
+                    </Route>
+                </Switch>
             </div>
         );
     }
