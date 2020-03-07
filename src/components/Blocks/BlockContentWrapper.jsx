@@ -2,6 +2,7 @@ import Block from "./Block"
 import styled from "styled-components"
 
 export default styled(Block)`
+    height: auto;
     min-width: 500px;
     margin: 30px auto;
     display: block;

@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
-import Language from "./Language"
-import Navigation from "./Navigation"
+import sideBar from "./sideBar"
+import Navigation from "./navigation"
 
 export default combineReducers({
     Navigation,
-    Language
+    sideBar
 })

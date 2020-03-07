@@ -1,6 +1,6 @@
-export const selectLaguage = lang => ({
-    type: 'ADD_TODO',
-    lang: lang,
+export const openSideBar = sideBarStatus => ({
+    type: 'OPEN_SIDE_BAR',
+    sideBarStatus: sideBarStatus,
 });
 
 export const selectPage = pageId => ({

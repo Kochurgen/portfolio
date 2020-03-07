@@ -1,13 +1,13 @@
 import React from "react"
 import styled from "styled-components"
-import {BlockContentWrapper, BlockInformationWrapper} from "../../components/Blocks";
-import List from "../../components/List"
+import {BlockContentWrapper, BlockInformationWrapper} from "../components/Blocks";
+import List from "../components/List"
 import {FaPhone, FaSkype, FaTelegram} from "react-icons/fa";
 import {IoIosMail} from "react-icons/io";
-import {BlockWrapper} from "../../components/Blocks";
-import {ImageCircle} from "../../components/Images";
-import logo from "../../source/images/photo.png";
-import {TextTitle, TextLink} from "../../components/Texts";
+import {BlockWrapper} from "../components/Blocks";
+import {ImageCircle} from "../components/Images";
+import logo from "../source/images/photo.png";
+import {TextTitle, TextLink} from "../components/Texts";
 
 const ItemList = styled.a`
     text-decoration: none;
@@ -19,8 +19,7 @@ const Item = styled.li`
 `;
 
 export default class Contacts extends React.PureComponent{
-    constructor(props) {
-        super(props);
+    componentWillUnmount() {
         window.scrollTo({
             top: 0,
             behavior: "smooth"

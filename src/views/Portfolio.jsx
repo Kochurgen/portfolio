@@ -1,12 +1,11 @@
 import React from "react";
-import {BlockContentWrapper} from "../../components/Blocks"
+import {BlockContentWrapper} from "../components/Blocks"
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {TextContent, TextTitle} from "../../components/Texts";
+import {TextContent, TextTitle} from "../components/Texts";
 
 export default class Portfolio extends React.PureComponent {
-    constructor(props) {
-        super(props);
+    componentWillUnmount() {
         window.scrollTo({
             top: 0,
             behavior: "smooth"
