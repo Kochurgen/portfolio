@@ -17,12 +17,14 @@ export default React.memo(()=>{
                 <NavigationButtonItem id={3} text={'Contact Me'}/>
                 <NavigationButtonItem id={4} text={'MY CV'}/>
             </ul>
-            {/*<ul>*/}
-            {/*    <li><a href={"/"}>Home</a></li>*/}
-            {/*    <li><a href={"/portfolio"}>Portfolio</a></li>*/}
-            {/*    <li><a href={"/skills"}>Scills</a></li>*/}
-            {/*    <li><a href={"/contacts"}>Contacts</a></li>*/}
-            {/*</ul>*/}
+            <ul>
+                <li>
+                    <Link to={"/"}>Home</Link>
+                </li>
+                <li><Link to={"/portfolio"}>Portfolio</Link></li>
+                <li><Link to={"/skills"}>Scills</Link></li>
+                <li><Link to={"/contacts"}>Contacts</Link></li>
+            </ul>
         </Block>
     )
 })
