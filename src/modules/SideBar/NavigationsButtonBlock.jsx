@@ -11,19 +11,11 @@ export default React.memo(()=>{
     return(
         <Block color={"rgba(145,13,13,.8)"}>
             <ul style={{'listStyle':'none', margin: 0, paddingTop: '60px', paddingLeft: 0}}>
-                <NavigationButtonItem id={0} text={'Home'}/>
-                <NavigationButtonItem id={1} text={'Portfolio'}/>
-                <NavigationButtonItem id={2} text={'My skills'}/>
-                <NavigationButtonItem id={3} text={'Contact Me'}/>
-                <NavigationButtonItem id={4} text={'MY CV'}/>
-            </ul>
-            <ul>
-                <li>
-                    <Link to={"/"}>Home</Link>
-                </li>
-                <li><Link to={"/portfolio"}>Portfolio</Link></li>
-                <li><Link to={"/skills"}>Scills</Link></li>
-                <li><Link to={"/contacts"}>Contacts</Link></li>
+                <NavigationButtonItem id={0} text={'Home'} url={"/"}/>
+                <NavigationButtonItem id={1} text={'Portfolio'} url={"/portfolio"}/>
+                <NavigationButtonItem id={2} text={'My skills'} url={"/skills"}/>
+                <NavigationButtonItem id={3} text={'Contact Me'} url={"/contacts"}/>
+                <NavigationButtonItem id={4} text={'MY CV'} url={"/"}/>
             </ul>
         </Block>
     )

@@ -1,4 +1,4 @@
-import {Button} from "../../components/Buttons";
+import {Button, ButtonNavigation} from "../../components/Buttons";
 import {TextContent} from "../../components/Texts";
 import React, {useState} from "react";
 import styled from "styled-components";
@@ -58,11 +58,11 @@ export default connect(
         <NavigationItem onClick={(event) => {
             selectPage(id)
         }}>
-            <Button>
+            <ButtonNavigation to={url}>
                 <TextContent color={'white'} size={'2em'}>
                     {text}
                 </TextContent>
-            </Button>
+            </ButtonNavigation>
             {getSelectPage === id ? <SelectPoint/> : ""}
         </NavigationItem>
     )
