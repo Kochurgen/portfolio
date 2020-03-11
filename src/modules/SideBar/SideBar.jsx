@@ -6,7 +6,7 @@ import Sidebar from "react-sidebar";
 import TitleBar from "../../components/TitleBar";
 import {FiMenu} from "react-icons/fi";
 import {Button} from "../../components/Buttons";
-import {TextTitle} from "../../components/Texts";
+import {TextContent} from "../../components/Texts";
 
 
 const BlockWrapperSideBar = styled(BlockSideBarWrapper)`
@@ -22,9 +22,12 @@ const SideBarButton = styled(Button)`
     background-color: rgba(0,0,0,0);
     margin: 0;
     float: left;
+        &:active{
+            background-color: rgba(0,0,0,0.5);
+        }
 `;
 
-const TitleText = styled(TextTitle)`
+const TitleText = styled(TextContent)`
     display: block;
     height: 62px;
     margin: 0;
@@ -43,6 +46,10 @@ export default class SideBar extends React.PureComponent {
 
     onSetSidebarOpen(open) {
         this.setState({sidebarOpen: open});
+    }
+
+    toggleSideBar(){
+        this.onSetSidebarOpen(this.state.sidebarOpen ? false: true)
     }
 
     render() {
@@ -67,12 +74,12 @@ export default class SideBar extends React.PureComponent {
                     }
                 }
             >
-                <TitleBar left={this.state.sidebarOpen? "256px" : 0}>
+                <TitleBar left={this.state.sidebarOpen ? "256px" : 0}>
                     <SideBarButton
-                        onClick={() => this.onSetSidebarOpen(true)}>
+                        onClick={this.toggleSideBar.bind(this)}>
                         <FiMenu size={"50px"}/>
                     </SideBarButton>
-                    <TitleText size={"2rem"} color={"white"}>Volodymyr Kochubenko</TitleText>
+                    <TitleText size={"1.5rem"} color={"white"}>Volodymyr Kochubenko</TitleText>
                 </TitleBar>
             </Sidebar>
         )
