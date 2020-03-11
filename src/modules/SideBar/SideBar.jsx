@@ -6,6 +6,7 @@ import Sidebar from "react-sidebar";
 import TitleBar from "../../components/TitleBar";
 import {FiMenu} from "react-icons/fi";
 import {Button} from "../../components/Buttons";
+import {TextTitle} from "../../components/Texts";
 
 
 const BlockWrapperSideBar = styled(BlockSideBarWrapper)`
@@ -20,6 +21,15 @@ const SideBarButton = styled(Button)`
     color: white;
     background-color: rgba(0,0,0,0);
     margin: 0;
+    float: left;
+`;
+
+const TitleText = styled(TextTitle)`
+    display: block;
+    height: 62px;
+    margin: 0;
+    line-height: 62px;
+    float: left;
 `;
 
 export default class SideBar extends React.PureComponent {
@@ -62,6 +72,7 @@ export default class SideBar extends React.PureComponent {
                         onClick={() => this.onSetSidebarOpen(true)}>
                         <FiMenu size={"50px"}/>
                     </SideBarButton>
+                    <TitleText size={"2rem"} color={"white"}>Volodymyr Kochubenko</TitleText>
                 </TitleBar>
             </Sidebar>
         )
