@@ -31,6 +31,8 @@ const TitleText = styled(TextContent)`
     display: block;
     height: 62px;
     margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
     line-height: 62px;
     float: left;
 `;
