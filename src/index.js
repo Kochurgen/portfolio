@@ -11,7 +11,7 @@ import {BrowserRouter} from "react-router-dom";
 const store = createStore(rootReducers);
 ReactDOM.render(
     <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename={"/"}>
             <App/>
         </BrowserRouter>
     </Provider>,
