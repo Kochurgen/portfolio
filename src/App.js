@@ -3,7 +3,7 @@ import './App.css';
 import SideBar from "./modules/SideBar";
 import {selectPage} from "./services/Store/actions";
 import {connect} from "react-redux";
-import {Home, Portfolio, Contacts, Skills, Main} from "./views"
+import {Home, Portfolio, Contacts, Skills, CV} from "./views"
 import {Switch, Route} from "react-router-dom"
 
 
@@ -27,8 +27,8 @@ class App extends React.PureComponent {
                     <Route path={"/contacts"}>
                         <Contacts/>
                     </Route>
-                    <Route path={"/contacts"}>
-                        <Contacts/>
+                    <Route path={"/cv"}>
+                        <CV/>
                     </Route>
                 </Switch>
             </div>

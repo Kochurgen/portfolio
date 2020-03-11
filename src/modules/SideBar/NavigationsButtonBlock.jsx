@@ -15,7 +15,7 @@ export default React.memo(()=>{
                 <NavigationButtonItem id={1} text={'Portfolio'} url={"/portfolio"}/>
                 <NavigationButtonItem id={2} text={'My skills'} url={"/skills"}/>
                 <NavigationButtonItem id={3} text={'Contact Me'} url={"/contacts"}/>
-                <NavigationButtonItem id={4} text={'MY CV'} url={"/"}/>
+                <NavigationButtonItem id={4} text={'MY CV'} url={"/cv"}/>
             </ul>
         </Block>
     )
