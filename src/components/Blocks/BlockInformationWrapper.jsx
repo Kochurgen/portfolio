@@ -8,8 +8,8 @@ export default styled(Button)`
     padding: 5% 0;
     left: 0;
     right: 0;
-    top: 30px;
-    bottom: 30px;
+    top: 0;
+    bottom: 0;
     border-radius: 0 40px;
     background-color: rgba(60, 67, 68, 0.2);
         @media(min-width: 0px){

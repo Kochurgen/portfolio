@@ -7,8 +7,10 @@ export default styled(Text)`
     text-overflow: ellipsis;
     white-space: nowrap;
     float: left;
-    
-    @media (width:1000px){
-        max-width: 440px;
-    }
+        @media (max-width:400px){
+            max-width: 400px;
+        }
+        @media (width:1000px){
+            max-width: 440px;
+        }
 `;
