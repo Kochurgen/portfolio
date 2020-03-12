@@ -71,7 +71,7 @@ export default class SideBar extends React.PureComponent {
                                 width: "256px",
                                 background: "rgba(145,13,13,.8)",
                                 zIndex: "999999999",
-                                position: "fixed"
+                                position: "fixed",
                             }
                     }
                 }
