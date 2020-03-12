@@ -23,10 +23,12 @@ export default styled(Button)`
             flex-basis: 66.6666667%;
             flex-grow: 0;
             width: 66.6666667%;
+            min-width: 66.6666667%;
         }
         @media(min-width: 960px){
             flex-basis: 50%;
             flex-grow: 0;
             width: 50%;
+            min-width: 50%;
         }    
 `;
