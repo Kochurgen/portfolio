@@ -31,8 +31,8 @@ export default class Contacts extends React.PureComponent{
             <BlockContentWrapper>
                 <BlockInformationWrapper>
                     <ImageCircle
-                        width={'20rem'}
-                        height={'20rem'}
+                        width={'16rem'}
+                        height={'16rem'}
                         image={logo}
                         style={{margin: `0 auto`}}/>
                     <TextTitle size={'29px'} color={"white"}>

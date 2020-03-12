@@ -15,7 +15,9 @@ export default styled(Button)`
         @media(min-width: 0px){
             flex-basis: 100%;
             flex-grow: 0;
-            max-width: 100%;
+            max-width: 90%;
+            min-width: 90%;
+            margin: 0 auto;
         }
         @media(min-width: 600px){
             flex-basis: 66.6666667%;

@@ -5,7 +5,7 @@ export default styled(Block)`
     top: 0;
     bottom: 0;
     left: 0;
-    position: fixed;
+    position: absolute;
     z-index: 2;
     width: 27%;
     font-size: 14px;

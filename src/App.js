@@ -9,6 +9,9 @@ import {Switch, Route} from "react-router-dom"
 
 
 class App extends React.PureComponent {
+    constructor(props) {
+        super(props);
+    }
     render() {
         return (
             <div className="App">
