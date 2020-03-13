@@ -15,10 +15,9 @@ export default class CV extends React.PureComponent {
             <BlockContentWrapper>
                 <BlockInformationWrapper>
                     <BlockWrapper>
-                        <CVItem link={""} text={"Download .pdf"}></CVItem>
-                        <CVItem link={""} text={"Download .odt"}></CVItem>
-                        <CVItem link={""} text={"Download .doc"}></CVItem>
-                        <CVItem link={""} text={"Download .html"}></CVItem>
+                        <CVItem link={"https://s3.eu-west-2.amazonaws.com/volodymyrkochubenko.site/Volodymyr+Kochubenko.pdf"} text={"Download .pdf"}></CVItem>
+                        <CVItem link={"https://s3.eu-west-2.amazonaws.com/volodymyrkochubenko.site/Volodymyr+Kochubenko.odt"} text={"Download .odt"}></CVItem>
+                        <CVItem link={"https://s3.eu-west-2.amazonaws.com/volodymyrkochubenko.site/Volodymyr+Kochubenko.docx"} text={"Download .docx"}></CVItem>
                     </BlockWrapper>
                 </BlockInformationWrapper>
             </BlockContentWrapper>
