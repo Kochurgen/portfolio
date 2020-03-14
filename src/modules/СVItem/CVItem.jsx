@@ -4,10 +4,10 @@ import {TextContent} from "../../components/Texts";
 
 const Wrapper = styled.div`
     width: 300px;
-    height: 100px;
+    height: 64px;
+    line-height: 64px;
     border: 0 solid;
     border-radius: 40px;
-    line-height: 95px;
     display: inline-block;
     background: rgba(226, 43, 43, 0.5);
     margin: 15px;
