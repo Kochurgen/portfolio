@@ -2,6 +2,8 @@ import React from "react"
 import {BlockContentWrapper, BlockInformationWrapper} from "../components/Blocks";
 import CVItem from "../modules/СVItem";
 import styled from "styled-components";
+import {selectPage} from "../services/Store/actions";
+import {connect} from "react-redux";
 
 const BlockWrapper = styled.div`
     max-width: 670px;
@@ -9,7 +11,12 @@ const BlockWrapper = styled.div`
     margin: 0 auto;
 `;
 
-export default class CV extends React.PureComponent {
+class CV extends React.PureComponent {
+    constructor(props) {
+        super(props);
+        this.props.selectPage(4)
+    }
+
     render() {
         return (
             <BlockContentWrapper>
@@ -24,3 +31,20 @@ export default class CV extends React.PureComponent {
         );
     }
 }
+
+const mapStateToProps = state => {
+    return ({})
+};
+
+const mapDispatchToProps = dispatch => {
+    console.log(dispatch);
+    return ({
+        selectPage: pageId => dispatch(selectPage(pageId))
+    })
+};
+
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(CV);

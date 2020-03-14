@@ -8,6 +8,8 @@ import {BlockWrapper} from "../components/Blocks";
 import {ImageCircle} from "../components/Images";
 import logo from "../source/images/photo.png";
 import {TextTitle, TextLink} from "../components/Texts";
+import {selectPage} from "../services/Store/actions";
+import {connect} from "react-redux";
 
 const ItemList = styled.a`
     text-decoration: none;
@@ -18,12 +20,17 @@ const Item = styled.li`
     padding: 0 10px;
 `;
 
-export default class Contacts extends React.PureComponent{
+class Contacts extends React.PureComponent{
+    constructor(props) {
+        super(props);
+        this.props.selectPage(3)
+    }
     componentWillUnmount() {
         window.scrollTo({
             top: 0,
             behavior: "smooth"
         });
+
     }
 
     render() {
@@ -60,3 +67,20 @@ export default class Contacts extends React.PureComponent{
         )
     }
 };
+
+const mapStateToProps = state => {
+    return ({})
+};
+
+const mapDispatchToProps = dispatch => {
+    console.log(dispatch);
+    return ({
+        selectPage: pageId => dispatch(selectPage(pageId))
+    })
+};
+
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Contacts);

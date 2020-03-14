@@ -9,11 +9,11 @@ const Wrapper = styled.div`
     border-radius: 40px;
     line-height: 95px;
     display: inline-block;
-    background: rgba(138, 43, 226, 1);
+    background: rgba(226, 43, 43, 0.5);
     margin: 15px;
     position: relative;
         &:active{
-            background: rgba(138, 43, 226, 0.5);
+            background: rgba(226, 43, 43, 0.8);
         }
 `;
 

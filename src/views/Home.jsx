@@ -6,10 +6,17 @@ import {TextContent, TextTitle} from "../components/Texts";
 import Flag from "react-world-flags";
 import TechnologyBoard from "../modules/TechnologyBoard";
 import styled from "styled-components";
+import {selectPage} from "../services/Store/actions";
+import {connect} from "react-redux";
 
 
 
-export default class Home extends React.PureComponent {
+class Home extends React.PureComponent {
+    constructor(props) {
+        super(props);
+        this.props.selectPage(0)
+    }
+
     componentWillUnmount() {
         window.scrollTo({
             top: 0,
@@ -40,3 +47,20 @@ export default class Home extends React.PureComponent {
         )
     }
 }
+
+const mapStateToProps = state => {
+    return ({})
+};
+
+const mapDispatchToProps = dispatch => {
+    console.log(dispatch);
+    return ({
+        selectPage: pageId => dispatch(selectPage(pageId))
+    })
+};
+
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Home)

@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="01f766bb-3b21-4306-a580-e38698f0deb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/СVItem/CVItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/СVItem/CVItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/CV.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CV.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Portfolio.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Skills.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +38,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Blocks" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -78,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581227106179</updated>
       <workItem from="1581227108280" duration="397042000" />
-      <workItem from="1584103158630" duration="3889000" />
+      <workItem from="1584103158630" duration="8087000" />
     </task>
     <servers />
   </component>
@@ -86,6 +94,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="246" y="70" key="#ESLint" timestamp="1584159787409">
+      <screen x="24" y="23" width="1256" height="777" />
+    </state>
+    <state x="246" y="70" key="#ESLint/24.23.1256.777/1280.23.1680.1027@24.23.1256.777" timestamp="1584159787409" />
     <state x="303" y="291" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583519247822">
       <screen x="30" y="23" width="1650" height="1027" />
     </state>

@@ -3,8 +3,15 @@ import {BlockContentWrapper} from "../components/Blocks"
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import {TextContent, TextTitle} from "../components/Texts";
+import {selectPage} from "../services/Store/actions";
+import {connect} from "react-redux";
 
-export default class Portfolio extends React.PureComponent {
+class Portfolio extends React.PureComponent {
+    constructor(props) {
+        super(props);
+        this.props.selectPage(1)
+    }
+
     componentWillUnmount() {
         window.scrollTo({
             top: 0,
@@ -77,3 +84,20 @@ export default class Portfolio extends React.PureComponent {
         )
     }
 }
+
+const mapStateToProps = state => {
+    return ({})
+};
+
+const mapDispatchToProps = dispatch => {
+    console.log(dispatch);
+    return ({
+        selectPage: pageId => dispatch(selectPage(pageId))
+    })
+};
+
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Portfolio)
