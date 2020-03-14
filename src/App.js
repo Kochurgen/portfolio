@@ -33,6 +33,7 @@ class App extends React.PureComponent {
                     <Route path={"/cv"}>
                         <CV/>
                     </Route>
+                    <Route component={Home}/>
                 </Switch>
             </div>
         );

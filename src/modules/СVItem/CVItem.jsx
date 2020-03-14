@@ -28,7 +28,9 @@ const Link = styled.a`
 
 export default React.memo(
     ({text, link})=>{
-        return(<Wrapper>
-            <Link href={link}><TextContent color={"white"}>{text}</TextContent></Link>
+        return(<Wrapper onClick={()=>{
+            window.open(link,'_blank');
+        }}>
+            <Link><TextContent color={"white"}>{text}</TextContent></Link>
         </Wrapper>)
     })
