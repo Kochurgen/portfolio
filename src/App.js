@@ -15,7 +15,7 @@ class App extends React.PureComponent {
     }
 
     render() {
-
+        console.log(this.props.getSelectPage)
         return (
             <div className="App">
                 {/*<Main/>*/}
