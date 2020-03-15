@@ -29,14 +29,12 @@ const SelectPoint = styled.i`
 `;
 
 const mapStateToProps = state => {
-    console.log('mapStateToProps', state);
     return ({
         getSelectPage: state.Navigation.pageId
     })
 };
 
 const mapDispatchToProps = dispatch => {
-    console.log(dispatch);
     return ({
         selectPage: pageId => dispatch(selectPage(pageId))
     })

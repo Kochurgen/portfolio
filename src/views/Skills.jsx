@@ -18,7 +18,7 @@ const Line = styled.p`
 class Experience extends React.PureComponent {
     constructor(props) {
         super(props);
-        // this.props.selectPage(2)
+        this.props.selectPage(2)
     }
 
     componentWillUnmount() {

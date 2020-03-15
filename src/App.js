@@ -10,12 +10,9 @@ import history from "./history";
 class App extends React.PureComponent {
     constructor(props) {
         super(props);
-        window.pr = history;
-        window.props = this;
     }
 
     render() {
-        console.log(this.props.getSelectPage)
         return (
             <div className="App">
                 {/*<Main/>*/}
@@ -43,14 +40,12 @@ class App extends React.PureComponent {
 }
 
 const mapStateToProps = state => {
-    console.log('mapStateToProps', state);
     return ({
         getSelectPage: state.Navigation.pageId
     })
 };
 
 const mapDispatchToProps = dispatch => {
-    console.log(dispatch);
     return ({
         selectPage: pageId => dispatch(selectPage(pageId))
     })

@@ -15,9 +15,7 @@ import history from "../history";
 class Home extends React.PureComponent {
     constructor(props) {
         super(props);
-        // this.props.selectPage(0);
-        console.log(props);
-        console.log(history);
+        this.props.selectPage(0);
     }
 
     componentWillUnmount() {
