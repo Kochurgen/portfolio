@@ -9,7 +9,7 @@ import {connect} from "react-redux";
 class Portfolio extends React.PureComponent {
     constructor(props) {
         super(props);
-        this.props.selectPage(1)
+        // this.props.selectPage(1)
     }
 
     componentWillUnmount() {

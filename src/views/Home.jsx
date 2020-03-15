@@ -8,13 +8,16 @@ import TechnologyBoard from "../modules/TechnologyBoard";
 import styled from "styled-components";
 import {selectPage} from "../services/Store/actions";
 import {connect} from "react-redux";
+import history from "../history";
 
 
 
 class Home extends React.PureComponent {
     constructor(props) {
         super(props);
-        this.props.selectPage(0)
+        // this.props.selectPage(0);
+        console.log(props);
+        console.log(history);
     }
 
     componentWillUnmount() {

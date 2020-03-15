@@ -5,14 +5,17 @@ import {selectPage} from "./services/Store/actions";
 import {connect} from "react-redux";
 import {Home, Portfolio, Contacts, Skills, CV} from "./views"
 import {Switch, Route} from "react-router-dom"
-
-
+import history from "./history";
 
 class App extends React.PureComponent {
     constructor(props) {
         super(props);
+        window.pr = history;
+        window.props = this;
     }
+
     render() {
+
         return (
             <div className="App">
                 {/*<Main/>*/}
