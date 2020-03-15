@@ -7,4 +7,5 @@ export default styled.ul`
     display: inline-block;
     padding: 0;
     list-style: none;
+    position: relative;
 `;
