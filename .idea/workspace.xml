@@ -4,10 +4,7 @@
     <list default="true" id="01f766bb-3b21-4306-a580-e38698f0deb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/CV.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CV.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581227106179</updated>
       <workItem from="1581227108280" duration="397042000" />
-      <workItem from="1584103158630" duration="12805000" />
+      <workItem from="1584103158630" duration="14095000" />
     </task>
     <servers />
   </component>
@@ -108,9 +105,10 @@
     <state x="189" y="123" width="1229" height="672" key="com.intellij.history.integration.ui.views.FileHistoryDialog/26.23.1654.1027@26.23.1654.1027" timestamp="1583248986738" />
     <state x="190" y="123" width="745" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog/27.23.1653.1027@27.23.1653.1027" timestamp="1582297959089" />
     <state x="87" y="56" width="1435" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog/30.23.1650.1027@30.23.1650.1027" timestamp="1583739359813" />
-    <state x="161" y="244" width="683" height="486" key="find.popup" timestamp="1584027387702">
-      <screen x="30" y="23" width="1650" height="1027" />
+    <state x="124" y="190" width="683" height="486" key="find.popup" timestamp="1584279585423">
+      <screen x="24" y="23" width="1256" height="777" />
     </state>
+    <state x="124" y="190" width="683" height="486" key="find.popup/24.23.1256.777/1280.23.1680.1027@24.23.1256.777" timestamp="1584279585423" />
     <state x="157" y="244" width="685" height="486" key="find.popup/26.23.1654.1027@26.23.1654.1027" timestamp="1583239887267" />
     <state x="159" y="244" width="684" height="486" key="find.popup/28.23.1652.1027@28.23.1652.1027" timestamp="1582390209631" />
     <state x="161" y="244" width="683" height="486" key="find.popup/30.23.1650.1027@30.23.1650.1027" timestamp="1584027387702" />
