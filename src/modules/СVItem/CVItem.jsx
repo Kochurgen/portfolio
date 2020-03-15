@@ -11,6 +11,7 @@ const Wrapper = styled.div`
     display: inline-block;
     background: rgba(226, 43, 43, 0.5);
     margin: 15px;
+    box-shadow: 5px 10px 18px #888888;
     position: relative;
         &:active{
             background: rgba(226, 43, 43, 0.8);
