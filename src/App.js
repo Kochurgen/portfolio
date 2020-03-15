@@ -21,16 +21,16 @@ class App extends React.PureComponent {
                     <Route exact path={"/"}>
                         <Home/>
                     </Route>
-                    <Route path={"/portfolio/"}>
+                    <Route path={"/portfolio "}>
                         <Portfolio/>
                     </Route>
-                    <Route path={"/skills/"}>
+                    <Route path={"/skills"}>
                         <Skills/>
                     </Route>
-                    <Route path={"/contacts/"}>
+                    <Route path={"/contacts"}>
                         <Contacts/>
                     </Route>
-                    <Route path={"/cv/"}>
+                    <Route path={"/cv"}>
                         <CV/>
                     </Route>
                 </Switch>
