@@ -1,89 +1,44 @@
-import React from "react";
-import {BlockContentWrapper} from "../components/Blocks"
-import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import {TextContent, TextTitle} from "../components/Texts";
+import React from "react"
+import styled from "styled-components"
+import {BlockContentWrapper, BlockInformationWrapper} from "../components/Blocks";
+import List from "../components/List"
 import {selectPage} from "../services/Store/actions";
 import {connect} from "react-redux";
 
-class Portfolio extends React.PureComponent {
+const ItemList = styled.a`
+    text-decoration: none;
+    color: cadetblue;
+`;
+
+const Item = styled.li`
+    padding: 0 10px;
+`;
+
+class Portfolio extends React.PureComponent{
     constructor(props) {
         super(props);
-        this.props.selectPage(1)
+        this.props.selectPage(3)
     }
-
     componentWillUnmount() {
         window.scrollTo({
             top: 0,
             behavior: "smooth"
         });
+
     }
 
     render() {
         return (
             <BlockContentWrapper>
-                <VerticalTimeline >
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        contentStyle={{background: 'rgb(232,236,243)', color: '#000000'}}
-                        contentArrowStyle={{borderRight: '7px solid  rgb(232,236,243)'}}
-                        dateClassName={'textStyle'}
-                        date={<TextContent size={'1.2rem !important'}>2019 - 2020</TextContent>}
-                        iconStyle={{background: 'rgb(33, 150, 243)', color: '#000000'}}
-                        icon={''}
-                    >
-                        <TextTitle style={{textAlign: "left"}} size={'1.2rem !important'}>SweetTV</TextTitle>
-                        <TextTitle size={'1.2rem !important'} className="vertical-timeline-element-subtitle">Mariupol office</TextTitle>
-                        <p><TextContent size={'1rem !important'}>
-                            Cross-platform developer. (Tizen and WebOS)
-                        </TextContent></p>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        contentStyle={{background: 'rgb(232,236,243)', color: '#000000'}}
-                        contentArrowStyle={{borderRight: '7px solid  rgb(232,236,243)'}}
-                        dateClassName={'textStyle'}
-                        date={<TextContent size={'1.2rem !important'}>2018 - 2019</TextContent>}
-                        iconStyle={{background: 'rgb(33, 150, 243)', color: '#000000'}}
-                        icon={''}
-                    >
-                        <TextTitle style={{textAlign: "left"}} size={'1.2rem !important'}>JDev</TextTitle>
-                        <TextTitle  size={'1.2rem !important'} className="vertical-timeline-element-subtitle">Mykolaiv office</TextTitle>
-                        <p><TextContent size={'1rem !important'}>
-                            Cross-platform developer.(Android and IOS) React Native projects, NativeScript.
-                        </TextContent></p>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        contentStyle={{background: 'rgb(232,236,243)', color: '#000000'}}
-                        contentArrowStyle={{borderRight: '7px solid  rgb(232,236,243)'}}
-                        dateClassName={'textStyle'}
-                        date={<TextContent size={'1.2rem !important'}>2015 - 2018</TextContent>}
-                        iconStyle={{background: 'rgb(33, 150, 243)', color: '#000000'}}
-                        icon={''}
-                    >
-                        <TextTitle style={{textAlign: "left"}} size={'1.2rem !important'}>MobiDev</TextTitle>
-                        <TextTitle size={'1.2rem !important'} className="vertical-timeline-element-subtitle">Chernivtsi office</TextTitle>
-                        <p><TextContent size={'1rem !important'}>Cross-platform developer, Android developer.(Android and IOS) Cordova cross-platform projects, Android project</TextContent></p>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        contentStyle={{background: 'rgb(232,236,243)', color: '#000000', fontSize:'38px !important'}}
-                        contentArrowStyle={{borderRight: '7px solid  rgb(232,236,243)'}}
-                        dateClassName={'textStyle'}
-                        date={<TextContent size={'1.2rem !important'}>2014</TextContent>}
-                        iconStyle={{background: 'rgb(33, 150, 243)', color: '#000000'}}
-                        icon={''}
-                    >
-                        <TextTitle style={{textAlign: "left"}} size={'1.2rem !important'}>MobiDev</TextTitle>
-                        <TextTitle size={'1.2rem !important'} className="vertical-timeline-element-subtitle">Mykolaiv office</TextTitle>
-                        <p><TextContent size={'1rem !important'}>Cross-platform developer. (Android,IOS and Windows) Cordova cross-platform projects</TextContent></p>
-                    </VerticalTimelineElement>
-                </VerticalTimeline>
+                <BlockInformationWrapper>
+                    <List>
+
+                    </List>
+                </BlockInformationWrapper>
             </BlockContentWrapper>
         )
     }
-}
+};
 
 const mapStateToProps = state => {
     return ({})
@@ -100,4 +55,4 @@ const mapDispatchToProps = dispatch => {
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(Portfolio)
+)(Portfolio);

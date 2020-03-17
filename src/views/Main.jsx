@@ -2,7 +2,7 @@ import React from "react";
 import {openSideBar, selectPage} from "../services/Store/actions";
 import {connect} from "react-redux";
 import SideBar from "../modules/SideBar";
-import Portfolio from "./Portfolio";
+import Portfolio from "./Workplaces";
 import Contacts from "./Contacts";
 import { AppBar, Toolbar, IconButton, Typography, Drawer} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
