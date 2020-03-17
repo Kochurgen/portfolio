@@ -20,10 +20,10 @@ const SelectPoint = styled.i`
         position: absolute;
         width: 0;
         height: 0;
-        border-top: 9px solid transparent;
-        border-bottom: 9px solid transparent;
-        border-right: 20px solid #fff;
-        bottom: 6px;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-right: 10px solid #fff;
+        bottom: 5px;
         left: auto;
         right: 0;
 `;
@@ -57,7 +57,7 @@ export default connect(
             selectPage(id)
         }}>
             <ButtonNavigation to={url}>
-                <TextContent color={'white'} size={'2em'}>
+                <TextContent color={'white'} size={'1.2em'}>
                     {text}
                 </TextContent>
             </ButtonNavigation>

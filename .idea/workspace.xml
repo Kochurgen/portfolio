@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="01f766bb-3b21-4306-a580-e38698f0deb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/SideBar/NavigationButtonItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/SideBar/NavigationButtonItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/TechnologyBoard/TechnologyBoard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/TechnologyBoard/TechnologyBoard.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581227106179</updated>
       <workItem from="1581227108280" duration="397042000" />
-      <workItem from="1584103158630" duration="18354000" />
+      <workItem from="1584103158630" duration="20463000" />
     </task>
     <servers />
   </component>
@@ -92,9 +94,10 @@
       <screen x="24" y="23" width="1256" height="777" />
     </state>
     <state x="246" y="70" key="#ESLint/24.23.1256.777/1280.23.1680.1027@24.23.1256.777" timestamp="1584159787409" />
-    <state x="303" y="291" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583519247822">
-      <screen x="30" y="23" width="1650" height="1027" />
+    <state x="231" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584387274535">
+      <screen x="23" y="23" width="1257" height="777" />
     </state>
+    <state x="231" y="226" key="#com.intellij.fileTypes.FileTypeChooser/23.23.1257.777/1280.23.1680.1027@23.23.1257.777" timestamp="1584387274535" />
     <state x="301" y="291" key="#com.intellij.fileTypes.FileTypeChooser/28.23.1652.1027@28.23.1652.1027" timestamp="1582288473633" />
     <state x="303" y="291" key="#com.intellij.fileTypes.FileTypeChooser/30.23.1650.1027@30.23.1650.1027" timestamp="1583519247822" />
     <state x="87" y="56" width="1435" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583739359813">

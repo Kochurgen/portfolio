@@ -31,7 +31,6 @@ export default class TechnologyBoard extends React.PureComponent {
                     <TechnologyBoardItem image={androidOriginal} name={"Android"}/>
                     <TechnologyBoardItem image={htmlOriginal} name={"Html5"}/>
                     <TechnologyBoardItem image={cssOriginal} name={"Css3"}/>
-                    <TechnologyBoardItem image={angularOriginal} name={"Angular"}/>
                     <TechnologyBoardItem image={appleOriginal} name={"Mac OS"}/>
                     <TechnologyBoardItem image={backbonejsOriginal} name={"Backbone"}/>
                     <TechnologyBoardItem image={electronOriginal} name={"Electrone"}/>
@@ -46,7 +45,6 @@ export default class TechnologyBoard extends React.PureComponent {
                     <TechnologyBoardItem image={reduxOriginal} name={"Redux"}/>
                     <TechnologyBoardItem image={sassOriginal} name={"Sass"}/>
                     <TechnologyBoardItem image={typescriptOriginal} name={"Typescript"}/>
-                    <TechnologyBoardItem image={vuejsOriginal} name={"Vue"}/>
                     <TechnologyBoardItem image={webpackOriginal} name={"Webpack"}/>
                     <TechnologyBoardItem image={windowsOriginal} name={"Windows"}/>
                     <TechnologyBoardItem image={yarnOriginal} name={"Yarn"}/>
