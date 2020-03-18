@@ -15,7 +15,7 @@ const BlockWrapper = styled.div`
 class CV extends React.PureComponent {
     constructor(props) {
         super(props);
-        this.props.selectPage(4);
+        this.props.selectPage(5);
     }
 
     render() {

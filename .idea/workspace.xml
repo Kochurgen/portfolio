@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f766bb-3b21-4306-a580-e38698f0deb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/source/images/hoeltzle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/source/images/livelove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/source/images/moodcow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/source/images/pitapat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Images/ImageRectangle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Images/ImageRectangle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/PortfolioListItem/PortfolioListItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/PortfolioListItem/PortfolioListItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/CV.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CV.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Portfolio.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Blocks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/source/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,14 +55,15 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/views" />
-      <recent name="$PROJECT_DIR$/src/source/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/source/images" />
       <recent name="$PROJECT_DIR$/src/components/Blocks" />
       <recent name="$PROJECT_DIR$/public/source/images" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views" />
+      <recent name="$PROJECT_DIR$/src/source/images" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -81,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581227106179</updated>
       <workItem from="1581227108280" duration="397042000" />
-      <workItem from="1584103158630" duration="25701000" />
+      <workItem from="1584103158630" duration="28235000" />
+      <workItem from="1584516614742" duration="8805000" />
     </task>
     <servers />
   </component>
@@ -99,6 +111,10 @@
     <state x="231" y="226" key="#com.intellij.fileTypes.FileTypeChooser/23.23.1257.777/1280.23.1680.1027@23.23.1257.777" timestamp="1584387274535" />
     <state x="301" y="291" key="#com.intellij.fileTypes.FileTypeChooser/28.23.1652.1027@28.23.1652.1027" timestamp="1582288473633" />
     <state x="303" y="291" key="#com.intellij.fileTypes.FileTypeChooser/30.23.1650.1027@30.23.1650.1027" timestamp="1583519247822" />
+    <state x="335" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584516557006">
+      <screen x="29" y="23" width="1651" height="1027" />
+    </state>
+    <state x="335" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/29.23.1651.1027@29.23.1651.1027" timestamp="1584516557006" />
     <state x="87" y="56" width="1435" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583739359813">
       <screen x="30" y="23" width="1650" height="1027" />
     </state>

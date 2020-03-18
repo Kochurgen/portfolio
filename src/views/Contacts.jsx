@@ -23,7 +23,7 @@ const Item = styled.li`
 class Contacts extends React.PureComponent{
     constructor(props) {
         super(props);
-        this.props.selectPage(3)
+        this.props.selectPage(4)
     }
     componentWillUnmount() {
         window.scrollTo({
