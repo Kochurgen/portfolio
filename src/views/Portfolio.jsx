@@ -65,7 +65,8 @@ class Portfolio extends React.PureComponent {
                             image={SweetTV}
                             appName={"SweetTv"}
                             appLink={"https://sweet.tv/"}
-                            description={"React, styled components, react-navTree, "}/>
+                            description={"React, styled components, " +
+                            "react-navTree, Tizen/WebOs"}/>
                     </ItemList>
                 </BlockInformationWrapper>
             </BlockContentWrapper>
