@@ -28,7 +28,9 @@ const TextDiscription = styled(TextContent)`
 `;
 
 const TextWrapper = styled.div`
-    
+    width: 80%;
+    height: 300px;
+    float: left;
 `;
 
 export default React.memo(({image, appName, appLink, description, iosLink, androidLink}) => {
