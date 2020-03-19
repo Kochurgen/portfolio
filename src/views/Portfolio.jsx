@@ -12,7 +12,6 @@ import Moodcow from "../source/images/moodcow.png"
 import SweetTV from "../source/images/sweettw.png"
 
 const ItemList = styled(List)`
-    width: 90%
 `;
 
 class Portfolio extends React.PureComponent {
@@ -65,8 +64,7 @@ class Portfolio extends React.PureComponent {
                             image={SweetTV}
                             appName={"SweetTv"}
                             appLink={"https://sweet.tv/"}
-                            description={"React, styled components, " +
-                            "react-navTree, Tizen/WebOs"}/>
+                            description={"React, styled components, react-navTree, Tizen/WebOs"}/>
                     </ItemList>
                 </BlockInformationWrapper>
             </BlockContentWrapper>

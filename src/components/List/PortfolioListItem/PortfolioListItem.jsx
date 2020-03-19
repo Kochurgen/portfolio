@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import React from "react"
 import {ImageRectangle} from "../../Images";
-import {TextContent, TextLink, TextTechnology} from "../../Texts";
+import {TextContent, TextLink, Text} from "../../Texts";
 import {FaGooglePlay, FaAppStore} from "react-icons/fa";
 
 const Item = styled.li`
@@ -11,13 +11,14 @@ const Item = styled.li`
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
-    height: 260px;
+    position: relative;
+    display: inline-block;
+    max-width: 400px;
 `;
 
 const LineWrapper = styled.div`
-    height: 3rem;
     width: 90%;
-    margin: 10px;
+    margin-left: 10px;
     float: left;
 `;
 
@@ -28,13 +29,16 @@ const TextDiscription = styled(TextContent)`
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    float: left;
+    float: right;
 `;
 
 const TextWrapper = styled.div`
     width: 70%;
     max-width: 70%;
-    height: 250px;
+    float: left;
+`;
+
+const TextContentDescription = styled(Text)`
     float: left;
 `;
 
@@ -48,7 +52,7 @@ export default React.memo(({image, appName, appLink, description, iosLink, andro
                         <strong>{appName}</strong></a></TextLink>
                 </LineWrapper>
                 <LineWrapper>
-                    <TextDiscription size={"1rem"}>Technology: {description}</TextDiscription>
+                    <TextContentDescription color={"black"} size={"1.2rem"}>Technology: {description}</TextContentDescription>
                 </LineWrapper>
                     {iosLink ? <TextDiscription><a href={iosLink}><FaAppStore size={"64px"}
                                                              style={{
