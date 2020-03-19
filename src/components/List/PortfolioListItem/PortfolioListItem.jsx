@@ -55,12 +55,12 @@ export default React.memo(({image, appName, appLink, description, iosLink, andro
                 <LineWrapper>
                     <TextContentDescription color={"black"} size={"1.2rem"}>Technology: {description}</TextContentDescription>
                 </LineWrapper>
-                    {iosLink ? <TextDiscription><a href={iosLink}><FaAppStore size={"64px"}
+                    {iosLink ? <TextDiscription><a href={iosLink}><FaAppStore size={"44px"}
                                                              style={{
                                                                  padding: "10px",
                                                                  marginTop: "10px"
                                                              }}/></a></TextDiscription> : ""}
-                    {androidLink ? <TextDiscription><a href={androidLink}><FaGooglePlay size={"64px"}
+                    {androidLink ? <TextDiscription><a href={androidLink}><FaGooglePlay size={"44px"}
                                                                        style={{
                                                                            padding: "10px",
                                                                            marginTop: "10px"
