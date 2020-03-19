@@ -33,8 +33,8 @@ const TextDiscription = styled(TextContent)`
 `;
 
 const TextWrapper = styled.div`
-    width: 70%;
-    max-width: 70%;
+    width: 80%;
+    max-width: 80%;
     float: left;
 `;
 
