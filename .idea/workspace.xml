@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f766bb-3b21-4306-a580-e38698f0deb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/source/images/hoeltzle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/livelove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/moodcow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/images/pitapat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Images/ImageRectangle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Images/ImageRectangle.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/List/PortfolioListItem/PortfolioListItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/PortfolioListItem/PortfolioListItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/SideBar/NavigationsButtonBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/CV.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CV.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Contacts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Portfolio.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +84,7 @@
       <updated>1581227106179</updated>
       <workItem from="1581227108280" duration="397042000" />
       <workItem from="1584103158630" duration="28235000" />
-      <workItem from="1584516614742" duration="8805000" />
+      <workItem from="1584516614742" duration="13510000" />
     </task>
     <servers />
   </component>

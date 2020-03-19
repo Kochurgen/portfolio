@@ -7,22 +7,55 @@ import {FaGooglePlay, FaAppStore} from "react-icons/fa";
 const Item = styled.li`
     text-decoration: none;
     color: cadetblue;
-    height: 110px;
-    line-height: 110px;
+    height: 300px;
 `;
 
-export default React.memo(({image, appName, iosLink, androidLink})=>{
+const LineWrapper = styled.div`
+    height: 3rem;
+    width: 90%;
+    margin: 10px;
+    float: left;
+`;
+
+const TextDiscription = styled(TextContent)`
+    color: black;
+    font-family: PT Sans,system,sans-serif;
+    vertical-align: top;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+`;
+
+const TextWrapper = styled.div`
+    
+`;
+
+export default React.memo(({image, appName, appLink, description, iosLink, androidLink}) => {
     return (
         <Item>
             <ImageRectangle width={"100px"} height={"100px"} image={image}/>
-            <TextLink size={"2.2rem"}> {appName} </TextLink>
-            {iosLink ? <a href={iosLink}><FaAppStore size={"64px"}
-                                                     style={{padding: "10px",
-                                                         marginTop: "10px"}}/></a> : ""}
-            {androidLink ? <a href={androidLink}><FaGooglePlay size={"64px"}
-                                                               style={{padding: "10px",
-                                                                   marginTop: "10px"}}/></a>: ""}
-            <TextContent size={"2.2rem"}></TextContent>
+            <TextWrapper>
+                <LineWrapper>
+                    <TextLink color={"black"} size={"2rem"}><a href={appLink}>
+                        <strong>{appName}</strong></a></TextLink>
+                </LineWrapper>
+                <LineWrapper>
+                    <TextDiscription size={"2rem"}>{description}</TextDiscription>
+                </LineWrapper>
+                <LineWrapper>
+                    {iosLink ? <TextDiscription><a href={iosLink}><FaAppStore size={"64px"}
+                                                             style={{
+                                                                 padding: "10px",
+                                                                 marginTop: "10px"
+                                                             }}/></a></TextDiscription> : ""}
+                    {androidLink ? <TextDiscription><a href={androidLink}><FaGooglePlay size={"64px"}
+                                                                       style={{
+                                                                           padding: "10px",
+                                                                           marginTop: "10px"
+                                                                       }}/></a></TextDiscription> : ""}
+                </LineWrapper>
+            </TextWrapper>
         </Item>
     )
 })
