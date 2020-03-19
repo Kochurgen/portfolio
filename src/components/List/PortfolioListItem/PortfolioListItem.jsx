@@ -7,7 +7,11 @@ import {FaGooglePlay, FaAppStore} from "react-icons/fa";
 const Item = styled.li`
     text-decoration: none;
     color: cadetblue;
-    height: 300px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    height: 260px;
 `;
 
 const LineWrapper = styled.div`
@@ -39,11 +43,11 @@ export default React.memo(({image, appName, appLink, description, iosLink, andro
             <ImageRectangle width={"100px"} height={"100px"} image={image}/>
             <TextWrapper>
                 <LineWrapper>
-                    <TextLink color={"black"} size={"2rem"}><a href={appLink}>
+                    <TextLink color={"black"} size={"1.5rem"}><a href={appLink}>
                         <strong>{appName}</strong></a></TextLink>
                 </LineWrapper>
                 <LineWrapper>
-                    <TextDiscription size={"2rem"}>{description}</TextDiscription>
+                    <TextDiscription size={"1.2rem"}>Technology: {description}</TextDiscription>
                 </LineWrapper>
                 <LineWrapper>
                     {iosLink ? <TextDiscription><a href={iosLink}><FaAppStore size={"64px"}
