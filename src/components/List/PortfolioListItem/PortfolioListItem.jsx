@@ -50,7 +50,6 @@ export default React.memo(({image, appName, appLink, description, iosLink, andro
                 <LineWrapper>
                     <TextDiscription size={"1rem"}>Technology: {description}</TextDiscription>
                 </LineWrapper>
-                <LineWrapper>
                     {iosLink ? <TextDiscription><a href={iosLink}><FaAppStore size={"64px"}
                                                              style={{
                                                                  padding: "10px",
@@ -61,7 +60,6 @@ export default React.memo(({image, appName, appLink, description, iosLink, andro
                                                                            padding: "10px",
                                                                            marginTop: "10px"
                                                                        }}/></a></TextDiscription> : ""}
-                </LineWrapper>
             </TextWrapper>
         </Item>
     )
