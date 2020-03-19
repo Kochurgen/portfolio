@@ -40,6 +40,7 @@ const TextWrapper = styled.div`
 
 const TextContentDescription = styled(Text)`
     float: left;
+    text-align: left;
 `;
 
 export default React.memo(({image, appName, appLink, description, iosLink, androidLink}) => {
