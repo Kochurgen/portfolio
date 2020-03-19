@@ -34,7 +34,7 @@ const TextDiscription = styled(TextContent)`
 const TextWrapper = styled.div`
     width: 70%;
     max-width: 70%;
-    height: 300px;
+    height: 250px;
     float: left;
 `;
 
