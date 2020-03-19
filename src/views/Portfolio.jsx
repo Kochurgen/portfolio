@@ -9,16 +9,18 @@ import Hoeltzle from "../source/images/hoeltzle.png"
 import LiveLove from "../source/images/livelove.png"
 import Pitapat from "../source/images/pitapat.png"
 import Moodcow from "../source/images/moodcow.png"
+import SweetTV from "../source/images/sweettw.png"
 
 const ItemList = styled(List)`
     width: 90%
 `;
 
-class Portfolio extends React.PureComponent{
+class Portfolio extends React.PureComponent {
     constructor(props) {
         super(props);
         this.props.selectPage(3)
     }
+
     componentWillUnmount() {
         window.scrollTo({
             top: 0,
@@ -59,6 +61,11 @@ class Portfolio extends React.PureComponent{
                             description={"React Native"}
                             iosLink={"https://apps.apple.com/gb/app/live-love/id1447334280?l=ru"}
                             androidLink={"https://play.google.com/store/apps/details?id=com.jdev.livelove&hl=uk"}/>
+                        <PortfolioListItem
+                            image={SweetTV}
+                            appName={"SweetTv"}
+                            appLink={"https://sweet.tv/"}
+                            description={"React, styled components, react-navTree, "}/>
                     </ItemList>
                 </BlockInformationWrapper>
             </BlockContentWrapper>
