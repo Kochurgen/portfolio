@@ -40,14 +40,14 @@ const TextWrapper = styled.div`
 export default React.memo(({image, appName, appLink, description, iosLink, androidLink}) => {
     return (
         <Item>
-            <ImageRectangle width={"100px"} height={"100px"} image={image}/>
+            <ImageRectangle width={"2em"} height={"2em"} image={image}/>
             <TextWrapper>
                 <LineWrapper>
                     <TextLink color={"black"} size={"1.5rem"}><a href={appLink}>
                         <strong>{appName}</strong></a></TextLink>
                 </LineWrapper>
                 <LineWrapper>
-                    <TextDiscription size={"1.2rem"}>Technology: {description}</TextDiscription>
+                    <TextDiscription size={"1rem"}>Technology: {description}</TextDiscription>
                 </LineWrapper>
                 <LineWrapper>
                     {iosLink ? <TextDiscription><a href={iosLink}><FaAppStore size={"64px"}
