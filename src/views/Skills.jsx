@@ -42,7 +42,7 @@ class Experience extends React.PureComponent {
                         <Line><TextContent size={"1.2rem"}><strong>JavaScript core:</strong> jQuery, NPM,
                             TypeScript, Yarn, Webpack. </TextContent></Line>
                         <Line><TextContent size={"1.2rem"}><strong>JavaScript frameworks:</strong> Backbone.js, RAD.JS,
-                            React.js / React Native, </TextContent></Line>
+                            React.js / React Native, Redux </TextContent></Line>
                         <Line><TextContent size={"1.2rem"}><strong>JavaScript
                             Node.js:</strong> Express.js.</TextContent></Line>
                         <Line><TextContent size={"1.2rem"}><strong>Markup:</strong> Bootstrap, CSS3, HTML5, Markdown,

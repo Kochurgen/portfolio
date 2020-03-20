@@ -58,14 +58,14 @@ class Portfolio extends React.PureComponent {
                             image={LiveLove}
                             appName={"LiveLove"}
                             appLink={"https://golive.love/"}
-                            description={"React Native"}
+                            description={"React Native, Redux"}
                             iosLink={"https://apps.apple.com/gb/app/live-love/id1447334280?l=ru"}
                             androidLink={"https://play.google.com/store/apps/details?id=com.jdev.livelove&hl=uk"}/>
                         <PortfolioListItem
                             image={SweetTV}
                             appName={"SweetTv"}
                             appLink={"https://sweet.tv/"}
-                            description={"React, styled components, react-navTree, Tizen/WebOs"}/>
+                            description={"React, Redux, styled components, react-navTree, Tizen/WebOs"}/>
                     </ItemList>
                 </BlockInformationWrapper>
             </BlockContentWrapper>
