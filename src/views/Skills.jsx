@@ -39,9 +39,8 @@ class Experience extends React.PureComponent {
                             Crosswalk, Tizen, WebOS.</TextContent></Line>
                         <Line><TextContent size={"1.2rem"}><strong>DataBase:</strong> MongoDB, Google Firebase, MySQL,
                             PostgreSQL, SQLite</TextContent></Line>
-                        <Line><TextContent size={"1.2rem"}><strong>JavaScript core:</strong> jQuery, Mocha, NPM,
-                            TypeScript,
-                            Yarn, Webpack. </TextContent></Line>
+                        <Line><TextContent size={"1.2rem"}><strong>JavaScript core:</strong> jQuery, NPM,
+                            TypeScript, Yarn, Webpack. </TextContent></Line>
                         <Line><TextContent size={"1.2rem"}><strong>JavaScript frameworks:</strong> Backbone.js, RAD.JS,
                             React.js / React Native, </TextContent></Line>
                         <Line><TextContent size={"1.2rem"}><strong>JavaScript
@@ -56,6 +55,27 @@ class Experience extends React.PureComponent {
                         </Line>
                         <Line><TextContent size={"1.2rem"}><strong>Testing:</strong> Mocha,
                             Jasmine.</TextContent></Line>
+                        <h1>Professional Experience</h1>
+
+                        <Line><TextContent size={"1.2rem"}>Basic understanding concepts of functional programming.</TextContent></Line>
+
+                        <Line><TextContent size={"1.2rem"}>Basic knowledge in frontend Angular 2+, React/React Native.</TextContent></Line>
+
+                        <Line><TextContent size={"1.2rem"}>Basic knowledge in Design Patterns.</TextContent></Line>
+
+                        <Line><TextContent size={"1.2rem"}>Basics of dev-ops (build systems, formatting and linting tools, deployment, etc).</TextContent></Line>
+
+                        <Line><TextContent size={"1.2rem"}>Build systems Webpack, Gulp, Grunt.</TextContent></Line>
+
+                        <Line><TextContent size={"1.2rem"}>HTML and template engines.</TextContent></Line>
+
+                        <Line><TextContent size={"1.2rem"}>Have experience in creating cross-platform applications for Android, iOS, Windows, Windows RT (Cordova / Electron) Tizen, WebOs .</TextContent></Line>
+
+                        <Line><TextContent size={"1.2rem"}>Testing Mocha, Chai.</TextContent></Line>
+
+                        <Line><TextContent size={"1.2rem"}>Tiny DevOps experience with microservices.</TextContent></Line>
+
+                        <Line><TextContent size={"1.2rem"}>Unix-based, Linux, Shell scripting (sh, bash, zsh, fish), Git.</TextContent></Line>
                     </Wrapper>
                 </BlockInformationWrapper>
             </BlockContentWrapper>

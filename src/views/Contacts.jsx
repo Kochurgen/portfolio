@@ -47,18 +47,18 @@ class Contacts extends React.PureComponent{
                     </TextTitle>
                     <List>
                         <Item><ItemList href={"tel:+380985697167"}>
-                            <TextLink size={"1.3rem"}><FaPhone style={{float: "left", padding: "0 10px"}}/> TEL:
+                            <TextLink size={"1.3rem"}><FaPhone style={{float: "left", padding: "1px 10px"}}/> TEL:
                                 +380985697167</TextLink>
                         </ItemList></Item>
                         <Item><ItemList href={"mailto:volodymyr.kochubenko@gmail.com?subject=Job+proposal"}>
-                            <TextLink size={"1.3rem"}><IoIosMail style={{float: "left", padding: "0 10px"}}/> EMAIL:
+                            <TextLink size={"1.3rem"}><IoIosMail style={{float: "left", padding: "1px 10px"}}/> EMAIL:
                                 volodymyr.kochubenko@gmail.com</TextLink>
                         </ItemList></Item>
                         <Item><ItemList href={"skype:live:volodymyr.kochubenko"}>
-                            <TextLink size={"1.3rem"}><FaSkype style={{float: "left", padding: "0 10px"}}/> SKYPE:
+                            <TextLink size={"1.3rem"}><FaSkype style={{float: "left", padding: "1px 10px"}}/> SKYPE:
                                 R36OMOD</TextLink></ItemList></Item>
                         <Item><ItemList href={"https://telegram.im/R36OMOD"}>
-                            <TextLink size={"1.3rem"}><FaTelegram style={{float: "left", padding: "0 10px"}}/> TELEGRAM:
+                            <TextLink size={"1.3rem"}><FaTelegram style={{float: "left", padding: "1px 10px"}}/> TELEGRAM:
                                 R36OMOD</TextLink></ItemList>
                         </Item>
                     </List>

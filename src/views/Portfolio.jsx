@@ -12,6 +12,7 @@ import Moodcow from "../source/images/moodcow.png"
 import SweetTV from "../source/images/sweettw.png"
 
 const ItemList = styled(List)`
+    max-width: 600px;
 `;
 
 class Portfolio extends React.PureComponent {
@@ -51,7 +52,7 @@ class Portfolio extends React.PureComponent {
                             image={Pitapat}
                             appName={"Pitapat"}
                             appLink={"http://pitapat.co"}
-                            description={"native android"}
+                            description={"native Android"}
                             androidLink={"https://play.google.com/store/apps/details?id=co.pitapat.pitapat"}/>
                         <PortfolioListItem
                             image={LiveLove}
