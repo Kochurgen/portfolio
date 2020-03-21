@@ -54,7 +54,6 @@ const mapStateToProps = state => {
 };
 
 const mapDispatchToProps = dispatch => {
-    console.log(dispatch);
     return ({
         selectPage: pageId => dispatch(selectPage(pageId))
     })
