@@ -16,7 +16,7 @@ const BlockWrapperSideBar = styled(BlockSideBarWrapper)`
     background-image: url("../../source/images/huas1.jpeg");
 `;
 
-const SideBarButton = styled(Button)`
+const SideBarButton = styled.a`
     height: 60px;
     cursor:'pointer';
     color: white;
@@ -86,7 +86,7 @@ export default class SideBar extends React.PureComponent {
                     <SideBarButton
                         id={"button"}
                         onClick={()=>this.toggleSideBar.bind(this)}
-                        onMouseEnter={()=>this.toggleSideBar.bind(this)}
+                        onMouseEnter={()=>console.log('click')}
                     >
                         <FiMenu size={"50px"}/>
                     </SideBarButton>
