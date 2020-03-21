@@ -44,6 +44,12 @@ export default class SideBar extends React.PureComponent {
             sidebarOpen: false
         };
         this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
+
+    }
+
+    componentDidMount() {
+        let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+        document.getElementById('button').addEventListener(touchEvent, this.toggleSideBar.bind(this));
     }
 
     onSetSidebarOpen(open) {
@@ -78,7 +84,7 @@ export default class SideBar extends React.PureComponent {
             >
                 <TitleBar left={this.state.sidebarOpen ? "256px" : 0}>
                     <SideBarButton
-                        onClick={this.toggleSideBar.bind(this)}>
+                        id={"button"}>
                         <FiMenu size={"50px"}/>
                     </SideBarButton>
                     <TitleText size={"1.5rem"} color={"white"}>Volodymyr Kochubenko</TitleText>
