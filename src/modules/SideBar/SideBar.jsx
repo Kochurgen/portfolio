@@ -86,6 +86,7 @@ export default class SideBar extends React.PureComponent {
                     <SideBarButton
                         id={"button"}
                         onClick={()=>this.toggleSideBar.bind(this)}
+                        onMouseEnter={()=>this.toggleSideBar.bind(this)}
                     >
                         <FiMenu size={"50px"}/>
                     </SideBarButton>
