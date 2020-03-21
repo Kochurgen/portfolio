@@ -18,6 +18,7 @@ const BlockWrapperSideBar = styled(BlockSideBarWrapper)`
 
 const SideBarButton = styled(Button)`
     height: 60px;
+    cursor:'pointer';
     color: white;
     background-color: rgba(0,0,0,0);
     margin: 0;
@@ -48,10 +49,7 @@ export default class SideBar extends React.PureComponent {
     }
 
     componentDidMount() {
-        let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
-        document.getElementById('button')
-            .addEventListener('touchstart', this.toggleSideBar.bind(this))
-            .addEventListener('click', this.toggleSideBar.bind(this));
+        this.getDOMNode().onclick = function() {}
     }
 
     onSetSidebarOpen(open) {
