@@ -16,7 +16,7 @@ const BlockWrapperSideBar = styled(BlockSideBarWrapper)`
     background-image: url("../../source/images/huas1.jpeg");
 `;
 
-const SideBarButton = styled.a`
+const SideBarButton = styled.button`
     height: 60px;
     cursor:'pointer';
     color: white;
