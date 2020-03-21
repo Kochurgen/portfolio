@@ -85,9 +85,7 @@ export default class SideBar extends React.PureComponent {
                 <TitleBar left={this.state.sidebarOpen ? "256px" : 0}>
                     <SideBarButton
                         id={"button"}
-                        onClick={()=>this.toggleSideBar.bind(this)}
-                        onMouseEnter={()=>console.log('click')}
-                    >
+                        onClick={this.toggleSideBar.bind(this)}>
                         <FiMenu size={"50px"}/>
                     </SideBarButton>
                     <TitleText size={"1.5rem"} color={"white"}>Volodymyr Kochubenko</TitleText>
