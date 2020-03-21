@@ -49,7 +49,7 @@ export default class SideBar extends React.PureComponent {
     }
 
     componentDidMount() {
-        this.getDOMNode().onclick = function() {}
+
     }
 
     onSetSidebarOpen(open) {
