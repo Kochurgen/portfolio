@@ -56,10 +56,10 @@ class Contacts extends React.PureComponent{
                         </ItemList></Item>
                         <Item><ItemList href={"skype:live:volodymyr.kochubenko"}>
                             <TextLink size={"1.3rem"}><FaSkype style={{float: "left", padding: "1px 10px"}}/> SKYPE:
-                                R36OMOD</TextLink></ItemList></Item>
-                        <Item><ItemList href={"https://telegram.im/R36OMOD"}>
+                                volodymyr.kochubenko</TextLink></ItemList></Item>
+                        <Item><ItemList href={"https://telegram.im/volodymyrkochubenko"}>
                             <TextLink size={"1.3rem"}><FaTelegram style={{float: "left", padding: "1px 10px"}}/> TELEGRAM:
-                                R36OMOD</TextLink></ItemList>
+                                volodymyrkochubenko</TextLink></ItemList>
                         </Item>
                     </List>
                 </BlockInformationWrapper>
