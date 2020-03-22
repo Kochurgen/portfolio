@@ -41,7 +41,7 @@ export default class SideBar extends React.PureComponent {
     constructor(props) {
         super(props);
         this.state = {
-            sidebarOpen: this
+            sidebarOpen: false
         };
         this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
         this.toggleButton = this.toggleSideBar.bind(this)

@@ -11,4 +11,5 @@ export default styled(Block)`
     bottom: 0;
     top: 65px;
     left: 0;
+    overflow-x: scroll;
 `;
