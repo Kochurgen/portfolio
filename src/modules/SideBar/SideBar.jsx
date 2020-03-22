@@ -19,6 +19,7 @@ const BlockWrapperSideBar = styled(BlockSideBarWrapper)`
 const SideBarButton = styled.div`
     height: 60px;
     color: white;
+    padding: 4px;
     background-color: rgba(0,0,0,0);
     margin: 0;
     float: left;
