@@ -7,9 +7,8 @@ export default styled(Block)`
     margin: 0 auto;
     display: block;
     position: absolute;
-    padding-top: 72px;
     right: 0;
     bottom: 0;
-    top: 0;
+    top: 65px;
     left: 0;
 `;

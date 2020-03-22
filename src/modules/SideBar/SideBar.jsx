@@ -86,7 +86,7 @@ export default class SideBar extends React.PureComponent {
                     <SideBarButton
                         id={"button"}
                         onClick={this.toggleButton}>
-                        <FiMenu size={"50px"} onClick={function(){alert('hello')}}/>
+                        <FiMenu size={"50px"}/>
                     </SideBarButton>
                     <TitleText size={"1.5rem"} color={"white"}>Volodymyr Kochubenko</TitleText>
                 </TitleBar>
