@@ -28,7 +28,7 @@ class Home extends React.PureComponent {
     render() {
         return (
             <BlockContentWrapper>
-                <BlockInformationWrapper onClick={ function(){alert('hello')}}>
+                <BlockInformationWrapper>
                     <ImageCircle
                         width={'16rem'}
                         height={'16rem'}

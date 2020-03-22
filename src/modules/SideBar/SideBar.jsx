@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Sidebar from "react-sidebar";
 import TitleBar from "../../components/TitleBar";
 import {FiMenu} from "react-icons/fi";
-import {Button} from "../../components/Buttons";
+import {BlockInformationWrapper} from "../../components/Blocks";
 import {TextContent} from "../../components/Texts";
 
 
@@ -83,11 +83,11 @@ export default class SideBar extends React.PureComponent {
                 }
             >
                 <TitleBar left={this.state.sidebarOpen ? "256px" : 0}>
-                    <SideBarButton
+                    <BlockInformationWrapper
                         id={"button"}
                         onClick={this.toggleButton}>
                         <FiMenu size={"50px"}/>
-                    </SideBarButton>
+                    </BlockInformationWrapper>
                     <TitleText size={"1.5rem"} color={"white"}>Volodymyr Kochubenko</TitleText>
                 </TitleBar>
             </Sidebar>
